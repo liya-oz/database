@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="26.0.3">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="954" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="so-8MKGhI2qEQVfFytqD-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;shape=link;align=center;fontStyle=0;" edge="1" parent="1" source="so-8MKGhI2qEQVfFytqD-12" target="so-8MKGhI2qEQVfFytqD-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="so-8MKGhI2qEQVfFytqD-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;shape=link;align=center;fontStyle=0;" edge="1" parent="1" source="so-8MKGhI2qEQVfFytqD-12" target="so-8MKGhI2qEQVfFytqD-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="so-8MKGhI2qEQVfFytqD-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;shape=link;align=center;fontStyle=0;" edge="1" parent="1" source="so-8MKGhI2qEQVfFytqD-12" target="so-8MKGhI2qEQVfFytqD-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="so-8MKGhI2qEQVfFytqD-12" value="&lt;p style=&quot;text-align: start;&quot;&gt;&lt;strong&gt;Recipes&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;text-align: start;&quot;&gt;&lt;li&gt;RecipeID&lt;/li&gt;&lt;li&gt;Name&lt;/li&gt;&lt;li&gt;Steps&lt;/li&gt;&lt;li&gt;DietTypeID&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="so-8MKGhI2qEQVfFytqD-25" value="&lt;p style=&quot;text-align: start; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot;&gt;&lt;strong&gt;Recipe_Categories&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;text-align: start; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot;&gt;&lt;li&gt;RecipeID&lt;/li&gt;&lt;li&gt;CategoryID&lt;/li&gt;&lt;/ul&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;align=center;fontStyle=0;whiteSpace=wrap;fontColor=#333333;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="so-8MKGhI2qEQVfFytqD-29" value="&lt;p style=&quot;text-align: start; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot;&gt;&lt;strong&gt;Recipe_Ingredients&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;text-align: start; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot;&gt;&lt;li&gt;RecipeID&lt;/li&gt;&lt;li&gt;IngredientID&lt;/li&gt;&lt;li&gt;Quantity&lt;/li&gt;&lt;/ul&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=center;fontStyle=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="500" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="so-8MKGhI2qEQVfFytqD-36" value="&lt;p style=&quot;text-align: start;&quot;&gt;&lt;strong&gt;Diet_Types&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;text-align: start;&quot;&gt;&lt;li&gt;DietTypeID&lt;/li&gt;&lt;li&gt;Name&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="so-8MKGhI2qEQVfFytqD-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;shape=link;align=center;fontStyle=0;" edge="1" parent="1" source="so-8MKGhI2qEQVfFytqD-38" target="so-8MKGhI2qEQVfFytqD-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="so-8MKGhI2qEQVfFytqD-38" value="&lt;p style=&quot;text-align: start;&quot;&gt;&lt;strong&gt;Categories&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;text-align: start;&quot;&gt;&lt;li&gt;CategoryID&lt;/li&gt;&lt;li&gt;Name&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;align=center;fontStyle=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="110" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="so-8MKGhI2qEQVfFytqD-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;shape=link;align=center;fontStyle=0;" edge="1" parent="1" source="so-8MKGhI2qEQVfFytqD-45" target="so-8MKGhI2qEQVfFytqD-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="so-8MKGhI2qEQVfFytqD-45" value="&lt;p style=&quot;text-align: start;&quot;&gt;&lt;strong&gt;Ingredients&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;text-align: start;&quot;&gt;&lt;li&gt;IngredientID&lt;/li&gt;&lt;li&gt;Name&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;fontStyle=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="490" width="220" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

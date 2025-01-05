@@ -1,0 +1,97 @@
+{
+  "dietTypes": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten-Free",
+    "No-Bake",
+    "Cake",
+    "Japanese"
+  ],
+  "categories": [
+    "Cake",
+    "No-Bake",
+    "Vegetarian",
+    "Vegan",
+    "Gluten-Free",
+    "Japanese"
+  ],
+  "ingredients": [
+    "Condensed milk",
+    "Cream Cheese",
+    "Lemon Juice",
+    "Pie Crust",
+    "Cherry Jam",
+    "Brussels Sprouts",
+    "Sesame seeds",
+    "Macaroni",
+    "Butter",
+    "Flour",
+    "Shredded Cheddar cheese",
+    "Eggs",
+    "Soy sauce",
+    "Sugar",
+    "Salt",
+    "Olive Oil"
+  ],
+  "recipes": [
+    {
+      "name": "No-Bake Cheesecake",
+      "steps": [
+        "Beat Cream Cheese",
+        "Add condensed Milk and blend",
+        "Add Lemon Juice and blend",
+        "Add the mix to the pie crust",
+        "Spread the Cherry Jam",
+        "Place in refrigerator for 3h."
+      ],
+      "dietType": "Vegetarian",
+      "categories": ["Cake", "No-Bake"],
+      "ingredients": ["Cream Cheese", "Condensed milk", "Lemon Juice", "Pie Crust", "Cherry Jam"]
+    },
+    {
+      "name": "Roasted Brussels Sprouts",
+      "steps": [
+        "Preheat the oven",
+        "Mix the ingredients in a bowl",
+        "Spread the mix on baking sheet",
+        "Bake for 30'"
+      ],
+      "dietType": "Vegan",
+      "categories": ["Vegan", "Gluten-Free"],
+      "ingredients": ["Brussels Sprouts", "Olive Oil", "Salt"]
+    },
+    {
+      "name": "Mac & Cheese",
+      "steps": [
+        "Cook Macaroni for 8'",
+        "Melt butter in a saucepan",
+        "Add flour, salt, pepper and mix",
+        "Add Milk and mix",
+        "Cook until mix is smooth",
+        "Add cheddar cheese",
+        "Add the macaroni"
+      ],
+      "dietType": "Vegetarian",
+      "categories": ["Vegetarian"],
+      "ingredients": ["Macaroni", "Butter", "Flour", "Shredded Cheddar cheese", "Salt", "Milk"]
+    },
+    {
+      "name": "Tamagoyaki Japanese Omelette",
+      "steps": [
+        "Beat the eggs",
+        "Add soy sauce, sugar and salt",
+        "Add oil to a saucepan",
+        "Bring to medium heat",
+        "Add some mix to the saucepan",
+        "Let it cook for 1'",
+        "Add oil to a saucepan",
+        "Add some mix to the saucepan",
+        "Let it cook for 1'",
+        "Remove pan from fire"
+      ],
+      "dietType": "Vegetarian",
+      "categories": ["Vegetarian", "Japanese"],
+      "ingredients": ["Eggs", "Soy sauce", "Sugar", "Salt", "Olive Oil"]
+    }
+  ]
+}
