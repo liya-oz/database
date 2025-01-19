@@ -43,11 +43,6 @@ CREATE TABLE Recipes (
     CategoryId INT NOT NULL,
     FOREIGN KEY (DietTypeID) REFERENCES Diet_Types(DietTypeID) ON DELETE SET NULL,
     FOREIGN KEY (CategoryId) REFERENCES Category(CategoryId) ON DELETE CASCADE
-)
-PARTITION BY LIST (CategoryId) (
-    PARTITION bakery VALUES IN (1, 2),
-    PARTITION main_course VALUES IN (3, 4),
-    PARTITION beverages VALUES IN (5)
 );
 
 CREATE TABLE Recipe_Category (
